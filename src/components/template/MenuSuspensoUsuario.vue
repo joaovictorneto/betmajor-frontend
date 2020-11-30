@@ -8,10 +8,10 @@
       <i class="fa fa-angle-down"></i>
     </div>
     <div class="menususpenso-usuario-conteudo">
-      <router-link to="/">Estatiscas</router-link>
-      <router-link to="/admin" v-if="usuario.admin"
-        >Área administrativa</router-link>
+      <router-link to="/admin" v-if="usuario.admin">Área administrativa</router-link>
       <router-link to="/apostas">Apostas</router-link>
+      <router-link to="/categorias/1/artigos">Notícias</router-link>
+      <router-link to="/">Estatiscas</router-link>
       <a href @click.prevent="sair">Sair</a>
     </div>
   </div>

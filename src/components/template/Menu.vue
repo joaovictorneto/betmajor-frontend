@@ -52,6 +52,9 @@ export default {
         name: "artigosPorCategoria",
         params: { id: no.id },
       });
+      if (this.$mq === 'xs' || this.$mq === 'sm') {
+        this.$store.commit('alternanciaMenu', false)
+      }
     },
   },
   mounted() {
