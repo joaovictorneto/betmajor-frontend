@@ -13,6 +13,7 @@
         placeholder="Nome"
       />
       <input
+        autocomplete="off"
         type="text"
         name="email"
         v-model="usuario.email"
@@ -110,10 +111,9 @@ export default {
 }
 
 .aut-titulo {
-  font-family: 'Roboto Mono';
+  font-family: 'Baloo Paaji';
   color: #000;
   font-size: 2.0rem;
-  font-weight: bold;
   margin-top: 10px;
   margin-bottom: 15px;
 }
@@ -125,7 +125,7 @@ export default {
   border: none;
   width: 50%;
   margin-bottom: 15px;
-  padding: 3px 8px;
+  padding: 6px 8px;
   outline: none;
   transition: width 0.4s ease-in-out;
 }
@@ -166,6 +166,10 @@ button.ghost {
 
 .autenticacao-modal a {
   margin-top: 35px;
+  color: #121214;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
 }
 
 .autenticacao-modal hr {

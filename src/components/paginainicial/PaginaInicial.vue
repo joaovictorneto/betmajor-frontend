@@ -1,7 +1,6 @@
 <template>
   <div class="portal">
     <TituloPagina principal="Inicio" sub="Estatísticas" />
-    <h1><router-link to="/">ver as ultimas noticias</router-link></h1>
     <div class="estatisticas">
       <!-- <Estatistica titulo="Apostas" :valor="0" /> -->
       <Estatistica
@@ -9,7 +8,7 @@
         :valor="estatistica.categorias"
         icone=""
       />
-      <Estatistica titulo="Postagens" :valor="estatistica.artigos" />
+      <Estatistica titulo="Postagens" :valor="3" />
       <Estatistica titulo="Usuários" :valor="estatistica.usuarios" />
       <Estatistica titulo="Apostas" :valor="0" /> 
       <!-- <Estatistica titulo=""/> -->
