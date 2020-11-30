@@ -27,7 +27,7 @@ export default {
 
 <style>
 .artigo-conteudo {
-    background-color: #fff;
+    background-color: #F6F5F7;
     border-radius: 8px;
     padding: 25px;
 }

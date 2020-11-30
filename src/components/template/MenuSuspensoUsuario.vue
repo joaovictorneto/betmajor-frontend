@@ -45,7 +45,7 @@ export default {
 .botao-usuario {
   display: flex;
   align-items: center;
-  color: #fff;
+  color: #F6F5F7;
   height: 100%;
   padding: 0 20px;
 }
@@ -72,7 +72,7 @@ export default {
 .menususpenso-usuario-conteudo {
   position: absolute;
   right: 0px;
-  background-color: #fff;
+  background-color: #F6F5F7;
   min-width: 199px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 10px;

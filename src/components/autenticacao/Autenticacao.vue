@@ -93,12 +93,12 @@ export default {
 }
 
 .autenticacao-modal {
-  background-color: #fff;
+  background-color: #F6F5F7;
   border-radius: 10px;
   width: 768px;
   height: 480px;
   padding: 35px;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
   display: flex;
   flex-direction: column;
@@ -106,16 +106,18 @@ export default {
 }
 
 .aut-titulo {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono';
   color: #000;
   font-size: 2.0rem;
-  font-weight: 100;
+  font-weight: bold;
   margin-top: 10px;
   margin-bottom: 15px;
 }
 
 .autenticacao-modal input {
-  background-color: #eee;
+  border-radius: 20px;
+  background-color: #121214;
+  color: #F6F5F7;
   border: none;
   width: 100%; /* nao ultrapassa por causa do padding*/
   margin-bottom: 15px;
@@ -123,12 +125,21 @@ export default {
   outline: none;
 }
 
+.autenticacao-modal input::placeholder{
+  color: #F6F5F7;
+  opacity: 1;
+}
+
+.autenticacao-modal input:focus{
+  outline-offset: 0px;
+}
+
 .autenticacao-modal button {
   align-self: center;
   border: 1px solid rgb(18, 18, 20);
   border-radius: 20px;
   background-color: #121214;
-  color: #fff;
+  color: #F6F5F7;
   padding: 12px 45px; /* vertical 5px; horizontal 15px*/
   text-transform: uppercase;
   transition: transform 80ms ease-in;
@@ -144,7 +155,7 @@ button:focus {
 
 button.ghost {
 	background-color: transparent;
-	border-color: #FFFFFF;
+	border-color: #F6F5F7;
 }
 
 .autenticacao-modal a {

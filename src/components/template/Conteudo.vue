@@ -13,7 +13,7 @@ export default {
 <style>
 .conteudo {
   grid-area: conteudo;
-  background-color: #fff;
+  background-color: #F6F5F7;
   padding: 20px;
 }
 </style>

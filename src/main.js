@@ -10,6 +10,7 @@ import './config/mq'
 
 import store from './config/store'
 import router from './config/router'
+import './registerServiceWorker'
 
 Vue.config.productionTip = false
 

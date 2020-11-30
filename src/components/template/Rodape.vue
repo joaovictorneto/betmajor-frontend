@@ -13,8 +13,8 @@ export default {
 <style>
 .rodape {
   grid-area: rodape;
-  background-color: #000;
-  color: #fff;
+  background-color: #121214;
+  color: #F6F5F7;
 
   display: flex;
   align-items: center;

@@ -1,7 +1,7 @@
 <template>
   <div id="app" :class="{ 'esconder-menu': !menuEstaVisivel || !usuario }">
     <Cabecalho
-      titulo="BetMajor"
+      
       :esconderAlternancia="!usuario"
       :esconderMenuSuspensoUsuario="!usuario"
     />
@@ -65,7 +65,7 @@ export default {
 
 <style>
 * {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono';
 }
 body {
   margin: 0;

@@ -39,7 +39,7 @@ export default {
 .artigo-individual {
   border-radius: 8px;
   margin-bottom: 20px;
-  background-color: #fff;
+  background-color: #F6F5F7;
   padding: 20px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 5px rba(0, 0, 0, 0.15);
@@ -49,7 +49,7 @@ export default {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: #000;
+  color: #121214;
 }
 
 .artigo-individual-info h2 {

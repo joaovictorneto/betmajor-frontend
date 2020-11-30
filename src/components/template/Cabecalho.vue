@@ -3,9 +3,9 @@
     <a class="alternar" @click="alternanciaMenu" v-if="!esconderAlternancia">
       <i class="fa fa-lg" :class="icone"></i>
     </a>
-    <h1 class="titulo">
-      <router-link to="/">{{ titulo }}</router-link>
-    </h1>
+    <div class="logo">
+      <router-link to="/"><img fluid src="../../assets/Logo BetMajor.png"></router-link>
+    </div>
     <MenuSuspensoUsuario v-if="!esconderMenuSuspensoUsuario" />
   </header>
 </template>
@@ -40,7 +40,7 @@ export default {
 <style>
 .cabecalho {
   grid-area: cabecalho;
-  background-color: #242526;
+  background-color: #121214;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,28 +52,29 @@ export default {
 
 }
 
-.titulo {
-  font-size: 1.2rem;
-  color: #fff;
-  font-weight: 100;
-  flex-grow: 1;
+.logo {
+  display: flex;
   text-align: center;
+  justify-content: center;
+  flex-grow: 1;
 }
 
-.titulo a {
-  color: #fff;
-  text-decoration: none; /* tirar a decoracao texto-link */
+.logo a {
+  text-decoration: none;
+  color: #F2F2F2;
+  width: 375px;
+  align-self: center;
 }
 
-.titulo a:hover {
-  color: #fff;
-  text-decoration: none; /* tirar a decoracao texto-link */
+.logo img{
+  max-width: 100%;
+  height: auto;
 }
 
 header.cabecalho > a.alternar {
   width: 60px;
   height: 100%;
-  color: #fff;
+  color: #F6F5F7;
   justify-self: flex-start;
   text-decoration: none;
 
@@ -83,7 +84,25 @@ header.cabecalho > a.alternar {
 }
 
 header.cabecalho > a.alternar:hover {
-  color: #fff;
+  color: #F6F5F7;
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 600px) {
+  .logo{
+    width: 210px;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo{
+    width: 190px;
+  }
+}
+
+@media (max-width: 320px) {
+  .logo{
+    width: 140px;
+  }
 }
 </style>

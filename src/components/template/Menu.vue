@@ -67,7 +67,7 @@ export default {
 .menu {
   grid-area: menu;
   /* background: linear-gradient(to right, #232526, #414345);  */
-  background: #232526;
+  background: #121214;
 
   display: flex;
   flex-direction: column;
@@ -76,7 +76,7 @@ export default {
 
 .menu span,
 .menu span:hover {
-  color: #fff;
+  color: #F6F5F7;
   text-decoration: none;
 }
 
@@ -99,16 +99,16 @@ export default {
 
   margin: 20px;
   padding-bottom: 8px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #F6F5F7;
 }
 
 .menu .filtro-menu i {
-  color: #eee;
+  color: #F6F5F7;
   margin-right: 10px;
 }
 
 .menu input {
-  color: #eee;
+  color: #F6F5F7;
   font-size: 1.3rem;
   border: 0;
   outline: 0;
@@ -117,7 +117,7 @@ export default {
 }
 
 .tree-filter-empty {
-  color: #eee;
+  color: #F6F5F7;
   font-size: 1.3rem;
   margin-left: 20px;
 }

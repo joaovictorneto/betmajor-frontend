@@ -1,0 +1,26 @@
+{
+    "short_name": "Bet Major",
+    "name": "Bet Major",
+    "icons": [
+        {
+        "src": "/img/android-icon-36x36.png",
+        "type": "image/png",
+        "sizes": "36x36"
+        },
+        {
+        "src": "/img/android-icon-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+        },
+        {
+        "src": "/img/android-icon-96x96.png",
+        "type": "image/png",
+        "sizes": "96x96"
+        }
+    ],
+    "start_url": "/",
+    "background_color": "#121214",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "theme_color": "#121214"
+  }
