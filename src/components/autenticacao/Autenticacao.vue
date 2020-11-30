@@ -1,7 +1,7 @@
 <template>
   <div class="conteudo-autenticacao">
     <div class="autenticacao-modal">
-      <img src="@/assets/logo_betmajor_preta.png" width="300" alt="Logo" />
+      <img v-anime="{ rotateY: 360, duration: 1800, scale: 1, easing: 'easeInOutSine', loop: true, delay: 2500 }" class="logo-moeda" src="@/assets/Logo-Moeda.png" width="300" alt="Logo" />
       <!-- <hr /> -->
       <div class="aut-titulo">
         {{ mostrarCadastro ? "Cadastre-se" : "Entrar" }}
@@ -105,6 +105,10 @@ export default {
   align-items: center;
 }
 
+.logo-moeda{
+  max-width: 100px;
+}
+
 .aut-titulo {
   font-family: 'Roboto Mono';
   color: #000;
@@ -119,10 +123,11 @@ export default {
   background-color: #121214;
   color: #F6F5F7;
   border: none;
-  width: 100%; /* nao ultrapassa por causa do padding*/
+  width: 50%;
   margin-bottom: 15px;
   padding: 3px 8px;
   outline: none;
+  transition: width 0.4s ease-in-out;
 }
 
 .autenticacao-modal input::placeholder{
@@ -132,6 +137,7 @@ export default {
 
 .autenticacao-modal input:focus{
   outline-offset: 0px;
+  width: 70%;
 }
 
 .autenticacao-modal button {
@@ -172,5 +178,12 @@ button.ghost {
     rgba(120, 120, 120, 0.75),
     rgba(120, 120, 120, 0)
   );
+}
+
+@media (max-width: 600px){
+  .autenticacao-modal input:focus{
+    outline-offset: 0px;
+    width: 100%;
+  }
 }
 </style>

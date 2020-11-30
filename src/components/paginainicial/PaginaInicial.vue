@@ -1,6 +1,6 @@
 <template>
   <div class="portal">
-    <TituloPagina principal="inicio" sub="Estatísticas" />
+    <TituloPagina principal="Inicio" sub="Estatísticas" />
     <h1><router-link to="/">ver as ultimas noticias</router-link></h1>
     <div class="estatisticas">
       <!-- <Estatistica titulo="Apostas" :valor="0" /> -->
