@@ -6,27 +6,27 @@ import { register } from 'register-service-worker'
   register(`${process.env.BASE_URL}service-worker.js`, {
     ready () {
       console.log(
-        'App is being served from cache by a service worker.\n' +
-        'For more details, visit https://goo.gl/AFskqB'
+        'App está sendo provido pelo cache através service worker.\n' +
+        'Para mais detalhes, visite https://goo.gl/AFskqB'
       )
     },
     registered () {
-      console.log('Service worker has been registered.')
+      console.log('Service worker registrado com sucesso.')
     },
     cached () {
-      console.log('Content has been cached for offline use.')
+      console.log('Conteúdo foi armazenado no cache para uso offline.')
     },
     updatefound () {
-      console.log('New content is downloading.')
+      console.log('Novo conteúdo está carregando.')
     },
     updated () {
-      console.log('New content is available; please refresh.')
+      console.log('Novo conteúdo disponível; por favor atualize a página.')
     },
     offline () {
-      console.log('No internet connection found. App is running in offline mode.')
+      console.log('Sem conexão com a internet. App está rodando em modo offline.')
     },
     error (error) {
-      console.error('Error during service worker registration:', error)
+      console.error('Erro durante o registo do Service worker:', error)
     }
   })
 //}

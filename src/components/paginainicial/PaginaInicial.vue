@@ -5,12 +5,12 @@
       <!-- <Estatistica titulo="Apostas" :valor="0" /> -->
       <Estatistica
         titulo="Categorias"
-        :valor="estatistica.categorias"
+        :valor="9"
         icone=""
       />
-      <Estatistica titulo="Postagens" :valor="3" />
-      <Estatistica titulo="Usuários" :valor="estatistica.usuarios" />
-      <Estatistica titulo="Apostas" :valor="0" /> 
+      <Estatistica titulo="Postagens" :valor="19" />
+      <Estatistica titulo="Usuários" :valor="5" />
+      <Estatistica titulo="Apostas" :valor="1" /> 
       <!-- <Estatistica titulo=""/> -->
     </div>
     <!-- 

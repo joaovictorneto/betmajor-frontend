@@ -16,12 +16,6 @@
           <b-tab title="Usuários">
             <UsuarioAdmin />
           </b-tab>
-          <b-tab title="Apostas">
-            
-          </b-tab>
-          <b-tab title="Times">
-
-          </b-tab>
         </b-tabs>
       <!-- </b-card> -->
     </div>

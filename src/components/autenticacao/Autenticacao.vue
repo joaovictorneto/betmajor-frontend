@@ -36,8 +36,8 @@
       <button v-else @click="entrar">Entrar</button>
 
       <a href @click.prevent="mostrarCadastro = !mostrarCadastro">
-        <span v-if="mostrarCadastro">Ou entrar</span>
-        <span v-else>ou Inscreva-se</span>
+        <span v-if="mostrarCadastro">Já tem uma conta? Faça login</span>
+        <span v-else>Não tem uma conta? Inscreva-se no BetMajor</span>
       </a>
     </div>
   </div>
@@ -97,7 +97,7 @@ export default {
   background-color: #F6F5F7;
   border-radius: 10px;
   width: 768px;
-  height: 480px;
+  height: 510px;
   padding: 35px;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
@@ -167,7 +167,7 @@ button.ghost {
 .autenticacao-modal a {
   margin-top: 35px;
   color: #121214;
-  font-size: 14px;
+  font-size: 18px;
   text-decoration: none;
   margin: 15px 0;
 }
