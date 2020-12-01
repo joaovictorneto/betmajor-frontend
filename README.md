@@ -1,4 +1,4 @@
-# frontend
+Este é o repositório contendo o front-end para desenvolvimento local da aplicação.
 
 ## Project setup
 ```
