@@ -81,4 +81,29 @@ export default {
   align-items: center;
   margin-top: 25px;
 }
+
+.artigo-individual {
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #121214;
+}
+
+.artigo-individual-info p {
+  color: #F6F5F7;
+  font-size: 1.1rem;
+}
+
+.btn-primary {
+  color: #F6F5F7 !important;
+  background-color: #121214 !important;
+  border-color: #121214 !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) !important;
+}
+
+.artigo-individual a{
+  color: #F6F5F7;
+}
 </style>
