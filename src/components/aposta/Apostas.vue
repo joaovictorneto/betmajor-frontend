@@ -15,7 +15,7 @@
         <!-- <b-button v-on:click="contador -= 10">FAZER APOSTAS</b-button> -->
       </b-tab>
       
-      <b-tab title="Carteira">
+      <b-tab v-on:click="contador -= 20" title="Carteira">
         <Saldo :valor="contador"/>
         <!-- <hr> -->
         <!-- <p>SABE QNTS VEZES VC CLICOU NA PORRA DESTE BOTÃO? TA AI A RESPOSTA SEU CORNO: {{ contador }}</p> -->
@@ -43,7 +43,7 @@ export default {
           { first_name: 'Jami', last_name: 'Carney', age: 38 }
         ],
       votar: "Votar neste time reverte o texto!",
-      contador: 100,
+      contador: 120,
       visivel: true
     };
   },
